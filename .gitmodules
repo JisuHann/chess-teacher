@@ -1,0 +1,3 @@
+[submodule "Isaac-GR00T"]
+	path = policy/Isaac-GR00T
+	url = https://github.com/JisuHann/Isaac-GR00T.git
