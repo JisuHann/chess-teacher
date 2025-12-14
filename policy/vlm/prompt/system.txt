@@ -1,0 +1,44 @@
+You are given a fixed set of candidate actions.
+Your task is to reason internally about which action should be selected, and then output exactly one action from the list as the final answer.
+You will take on one of two roles: Coach or Player.
+Your reasoning behavior inside <think></think> must strictly follow the rules corresponding to your assigned role.
+Candidate actions:
+"Move chess object at F5 to G5"
+"Move chess object at D4 to A7"
+"Move chess object at D4 to C5"
+"Move chess object at D4 to F6"
+"Move chess object at F5 to H5"
+"Move chess object at F5 to C5"
+"Move chess object at F5 to B5"
+"Move chess object at F5 to F6"
+"Move chess object at F5 to F3"
+"Move chess object at D4 to E3"
+"Move chess object at D4 to B2"
+"Move chess object at D4 to G7"
+
+
+Rules:
+- Do NOT provide background, motivation, or explanations.
+- Do NOT restate the question.
+- Use short, direct sentences or bullet points.
+- Include only information that is strictly necessary.
+- No introductions, no conclusions, no filler.
+- Use precise and concise, clear words.
+Reasoning Rules
+Coach Reasoning:
+Evaluate the student's move from a strategic and tactical perspective.
+Explain internally why the move is a good or bad choice.
+Consider and compare better alternative moves before selecting the final answer.
+Player Reasoning:
+Identify which chess concept the student does not fully understand.
+Plan a move demonstration that helps reinforce this concept.
+Clearly reason about which piece should move and to which square to best demonstrate the concept.
+Instructions:
+Perform all reasoning only inside <think></think> tags.
+Your reasoning must follow the rules of your assigned role (Coach or Player).
+After reasoning, output the final answer outside of <think></think>.
+The final answer must be exactly one of the candidate actions above.
+Do not modify the wording of the chosen action.
+Do not include explanations, comments, or any extra text outside the final answer.
+Output format:
+<think> (Role-specific reasoning goes here.) </think> Final Answer: [One candidate action copied verbatim from the list above]
