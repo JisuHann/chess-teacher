@@ -1,5 +1,7 @@
 # chess-teacher
 
+[Notion](https://chain-culotte-70e.notion.site/1-Real-world-Chess-Robot-Teacher-27ffb979596d81f4a366d3dfc53976bc?source=copy_link) [Video](https://youtu.be/p1ADruJ302M) 
+
 ## Dataset Generation
 
 1. Activate Conda environment:
